@@ -69,3 +69,48 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
+
+@media screen and (min-width: 1024px) {
+
+	.about-img {
+		width: 100%;
+	}
+
+}
+
+.about-img {
+	width: 50%;
+}
+	
+.prof-images {
+	border-radius: 150px;
+	height:250px;
+	width: 250px;
+	transform:translateY(4px)
+}
+
+.social-container {
+	display: flex;
+	justify-content: center;
+}
+
+.social-container a {
+	border-bottom: none;
+	margin: 0.5em;
+}
+
+.gif {
+	width: 80%;
+}
+
+#footer {
+	justify-content: center;
+	width: 100% !important;
+	padding: 5em 0em 3em 0em;
+	margin: 0 0 0 0;
+}
+
+#footer > section {
+	width: auto;
+	margin-left: 0;
+}
